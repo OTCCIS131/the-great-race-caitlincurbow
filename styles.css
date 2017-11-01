@@ -1,0 +1,41 @@
+#background{
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-repeat:no-repeat;
+}
+
+.startRace{
+    position: absolute;
+    left: 30vh; 
+    bottom:75vh;
+    height: 20vh;
+}
+
+#scoobyStyle{
+    position: absolute; 
+    bottom: 5vh; 
+    height: 15vh;
+}
+
+#shaggyStyle{
+    position: absolute; 
+    bottom: 20vh; 
+    height: 15vh;
+}
+
+.racer{
+    transition: left .5s;
+}
+
+#van{
+    position: absolute; 
+    bottom: 10vh; 
+    right: 5vh;
+}
+
+.winner{
+  bottom: 20vh;
+  left: 40vw;
+
+  transition: width 2s, height 4s;
+}
